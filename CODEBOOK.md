@@ -4,7 +4,7 @@
 Tidy data contains 180 rows and 72 columns. Each row has averaged variables for each subject and each activity.
 
 ### The data were averaged based on subject and activity group.
-Subject column is numbered sequentially from 1 to 30. ActivityId column has 6 types as listed below and SubjectId is numbered from 1 to 30 sequentially.
+Activity column has 6 types as listed below and Subject is numbered from 1 to 30 sequentially.
 
 1. WALKING
 2. WALKING_UPSTAIRS
@@ -86,3 +86,5 @@ All the Columns are as follow:
 70.	fBodyBodyGyroMag-meanFreq()
 71.	fBodyBodyGyroJerkMag-mean()
 72.	fBodyBodyGyroJerkMag-meanFreq()
+
+### All variables are of numeric type except subjectId and activityId. activityId is a categorical data type.
