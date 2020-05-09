@@ -1,7 +1,7 @@
 # Tidy data Set Description
 
 ### The variables in the tidy data
-Tidy data contains 180 rows and 81 columns. Each row has averaged variables for each subject and each activity.
+Tidy data contains 180 rows and 73 columns. Each row has averaged variables for each subject and each activity.
 
 ### The data were averaged based on subject and activity group.
 Subject column is numbered sequentially from 1 to 30. ActivityId column has 6 types as listed below and SubjectId is numbered from 1 to 30 sequentially.
@@ -14,84 +14,75 @@ Subject column is numbered sequentially from 1 to 30. ActivityId column has 6 ty
 6. LAYING
 
 All the Columns are as follow:
-1. subjectId	1	factor	ID of subject
-2. activityId	2	factor	Activity label
-3. tBodyAcc.mean.X	3	numeric	Measurement variable
-4. tBodyAcc.mean.Y	4	numeric	Measurement variable
-tBodyAcc.mean.Z	5	numeric	Measurement variable
-tBodyAcc.std.X	6	numeric	Measurement variable
-tBodyAcc.std.Y	7	numeric	Measurement variable
-tBodyAcc.std.Z	8	numeric	Measurement variable
-tGravityAcc.mean.X	9	numeric	Measurement variable
-tGravityAcc.mean.Y	10	numeric	Measurement variable
-tGravityAcc.mean.Z	11	numeric	Measurement variable
-tGravityAcc.std.X	12	numeric	Measurement variable
-tGravityAcc.std.Y	13	numeric	Measurement variable
-tGravityAcc.std.Z	14	numeric	Measurement variable
-tBodyAccJerk.mean.X	15	numeric	Measurement variable
-tBodyAccJerk.mean.Y	16	numeric	Measurement variable
-tBodyAccJerk.mean.Z	17	numeric	Measurement variable
-tBodyAccJerk.std.X	18	numeric	Measurement variable
-tBodyAccJerk.std.Y	19	numeric	Measurement variable
-tBodyAccJerk.std.Z	10	numeric	Measurement variable
-tBodyGyro.mean.X	12	numeric	Measurement variable
-tBodyGyro.mean.Y	22	numeric	Measurement variable
-tBodyGyro.mean.Z	23	numeric	Measurement variable
-tBodyGyro.std.X	24	numeric	Measurement variable
-tBodyGyro.std.Y	25	numeric	Measurement variable
-tBodyGyro.std.Z	26	numeric	Measurement variable
-tBodyGyroJerk.mean.X	27	numeric	Measurement variable
-tBodyGyroJerk.mean.Y	28	numeric	Measurement variable
-tBodyGyroJerk.mean.Z	29	numeric	Measurement variable
-tBodyGyroJerk.std.X	30	numeric	Measurement variable
-tBodyGyroJerk.std.Y	31	numeric	Measurement variable
-tBodyGyroJerk.std.Z	32	numeric	Measurement variable
-tBodyAccMag.mean	33	numeric	Measurement variable
-tBodyAccMag.std	34	numeric	Measurement variable
-tGravityAccMag.mean	35	numeric	Measurement variable
-tGravityAccMag.std	36	numeric	Measurement variable
-tBodyAccJerkMag.mean	37	numeric	Measurement variable
-tBodyAccJerkMag.std	38	numeric	Measurement variable
-tBodyGyroMag.mean	39	numeric	Measurement variable
-tBodyGyroMag.std	40	numeric	Measurement variable
-tBodyGyroJerkMag.mean	41	numeric	Measurement variable
-tBodyGyroJerkMag.std	42	numeric	Measurement variable
-fBodyAcc.mean.X	43	numeric	Measurement variable
-fBodyAcc.mean.Y	44	numeric	Measurement variable
-fBodyAcc.mean.Z	45	numeric	Measurement variable
-fBodyAcc.std.X	46	numeric	Measurement variable
-fBodyAcc.std.Y	47	numeric	Measurement variable
-fBodyAcc.std.Z	48	numeric	Measurement variable
-fBodyAcc.meanFreq.X	49	numeric	Measurement variable
-fBodyAcc.meanFreq.Y	50	numeric	Measurement variable
-fBodyAcc.meanFreq.Z	51	numeric	Measurement variable
-fBodyAccJerk.mean.X	52	numeric	Measurement variable
-fBodyAccJerk.mean.Y	53	numeric	Measurement variable
-fBodyAccJerk.mean.Z	54	numeric	Measurement variable
-fBodyAccJerk.std.X	55	numeric	Measurement variable
-fBodyAccJerk.std.Y	56	numeric	Measurement variable
-fBodyAccJerk.std.Z	57	numeric	Measurement variable
-fBodyAccJerk.meanFreq.X	58	numeric	Measurement variable
-fBodyAccJerk.meanFreq.Y	59	numeric	Measurement variable
-fBodyAccJerk.meanFreq.Z	60	numeric	Measurement variable
-fBodyGyro.mean.X	61	numeric	Measurement variable
-fBodyGyro.mean.Y	62	numeric	Measurement variable
-fBodyGyro.mean.Z	63	numeric	Measurement variable
-fBodyGyro.std.X	64	numeric	Measurement variable
-fBodyGyro.std.Y	65	numeric	Measurement variable
-fBodyGyro.std.Z	66	numeric	Measurement variable
-fBodyGyro.meanFreq.X	67	numeric	Measurement variable
-fBodyGyro.meanFreq.Y	68	numeric	Measurement variable
-fBodyGyro.meanFreq.Z	69	numeric	Measurement variable
-fBodyAccMag.mean	70	numeric	Measurement variable
-fBodyAccMag.std	71	numeric	Measurement variable
-fBodyAccMag.meanFreq	72	numeric	Measurement variable
-fBodyBodyAccJerkMag.mean	73	numeric	Measurement variable
-fBodyBodyAccJerkMag.std	74	numeric	Measurement variable
-fBodyBodyAccJerkMag.meanFreq	75	numeric	Measurement variable
-fBodyBodyGyroMag.mean	76	numeric	Measurement variable
-fBodyBodyGyroMag.std	77	numeric	Measurement variable
-fBodyBodyGyroMag.meanFreq	78	numeric	Measurement variable
-fBodyBodyGyroJerkMag.mean	79	numeric	Measurement variable
-fBodyBodyGyroJerkMag.std	80	numeric	Measurement variable
-fBodyBodyGyroJerkMag.meanFreq	81	numeric	Measurement variable
+1.	subjectID
+2.	activityID
+3. 	tBodyAcc-mean()-X
+4.	tBodyAcc-mean()-Y
+5.	tBodyAcc-mean()-Z
+6.	tBodyAcc-std()-X
+7.	tBodyAcc-std()-Y
+8.	tBodyAcc-std()-Z
+9	tGravityAcc-mean()-X
+10	tGravityAcc-mean()-Y
+11	tGravityAcc-mean()-Z
+12	tGravityAcc-std()-X
+13	tGravityAcc-std()-Y
+14	tGravityAcc-std()-Z
+15	tBodyAccJerk-mean()-X
+16	tBodyAccJerk-mean()-Y
+17	tBodyAccJerk-mean()-Z
+18	tBodyAccJerk-std()-X
+19	tBodyAccJerk-std()-Y
+20	tBodyAccJerk-std()-Z
+21	tBodyGyro-mean()-X
+22	tBodyGyro-mean()-Y
+23	tBodyGyro-mean()-Z
+24	tBodyGyro-std()-X
+25	tBodyGyro-std()-Y
+26	tBodyGyro-std()-Z
+27	tBodyGyroJerk-mean()-X
+28	tBodyGyroJerk-mean()-Y
+29	tBodyGyroJerk-mean()-Z
+30	tBodyGyroJerk-std()-X
+31	tBodyGyroJerk-std()-Y
+32	tBodyGyroJerk-std()-Z
+33	tBodyAccMag-mean()
+34	tGravityAccMag-mean()
+35	tBodyAccJerkMag-mean()
+36	tBodyGyroMag-mean()
+37	tBodyGyroJerkMag-mean()
+38	fBodyAcc-mean()-X
+39	fBodyAcc-mean()-Y
+40	fBodyAcc-mean()-Z
+41	fBodyAcc-std()-X
+42	fBodyAcc-std()-Y
+43	fBodyAcc-std()-Z
+44	fBodyAcc-meanFreq()-X
+45	fBodyAcc-meanFreq()-Y
+46	fBodyAcc-meanFreq()-Z
+47	fBodyAccJerk-mean()-X
+48	fBodyAccJerk-mean()-Y
+49	fBodyAccJerk-mean()-Z
+50	fBodyAccJerk-std()-X
+51	fBodyAccJerk-std()-Y
+52	fBodyAccJerk-std()-Z
+53	fBodyAccJerk-meanFreq()-X
+54	fBodyAccJerk-meanFreq()-Y
+55	fBodyAccJerk-meanFreq()-Z
+56	fBodyGyro-mean()-X
+57	fBodyGyro-mean()-Y
+58	fBodyGyro-mean()-Z
+59	fBodyGyro-std()-X
+60	fBodyGyro-std()-Y
+61	fBodyGyro-std()-Z
+62	fBodyGyro-meanFreq()-X
+63	fBodyGyro-meanFreq()-Y
+64	fBodyGyro-meanFreq()-Z
+65	fBodyAccMag-mean()
+66	fBodyAccMag-meanFreq()
+67	fBodyBodyAccJerkMag-mean()
+68	fBodyBodyAccJerkMag-meanFreq()
+69	fBodyBodyGyroMag-mean()
+70	fBodyBodyGyroMag-meanFreq()
+71	fBodyBodyGyroJerkMag-mean()
+72	fBodyBodyGyroJerkMag-meanFreq()
