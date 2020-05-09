@@ -1,11 +1,23 @@
+# Tidy data Set Description
 
+### The variables in the tidy data
+Tidy data contains 180 rows and 81 columns. Each row has averaged variables for each subject and each activity.
 
+### The data were averaged based on subject and activity group.
+Subject column is numbered sequentially from 1 to 30. ActivityId column has 6 types as listed below and SubjectId is numbered from 1 to 30 sequentially.
 
+1. WALKING
+2. WALKING_UPSTAIRS
+3. WALKING_DOWNSTAIRS
+4. SITTING
+5. STANDING
+6. LAYING
 
-subject	1	factor	ID of subject
-activity	2	factor	Activity label
-tBodyAcc.mean.X	3	numeric	Measurement variable
-tBodyAcc.mean.Y	4	numeric	Measurement variable
+All the Columns are as follow:
+1. subjectId	1	factor	ID of subject
+2. activityId	2	factor	Activity label
+3. tBodyAcc.mean.X	3	numeric	Measurement variable
+4. tBodyAcc.mean.Y	4	numeric	Measurement variable
 tBodyAcc.mean.Z	5	numeric	Measurement variable
 tBodyAcc.std.X	6	numeric	Measurement variable
 tBodyAcc.std.Y	7	numeric	Measurement variable
