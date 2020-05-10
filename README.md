@@ -11,9 +11,7 @@ Here are the data for the project:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-This project allows creating a "clean" data set from the 'UCI HAR Dataset' available at:
-
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+This project allows creating a "clean" data set from the 'UCI HAR Dataset' available at above given link.
 
 It merges different subsets of this data into one single transformed data set in order to allow performing data analysis tasks more easily. As an example, a derived data set named "tidySet" data set) is created which contains the average values of each measurement variable for each activity and each subject.
 
