@@ -11,8 +11,15 @@ Here are the data for the project:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-You should create one R script called run_analysis.R that does the following.
+This project allows creating a "clean" data set from the 'UCI HAR Dataset' available at:
 
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+It merges different subsets of this data into one single transformed data set in order to allow performing data analysis tasks more easily. As an example, a derived data set named "tidySet" data set) is created which contains the average values of each measurement variable for each activity and each subject.
+
+We have created one R script file called run_analysis.R that does the following.
+
+1. Download and read different traing and test data set.
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
 3. Uses descriptive activity names to name the activities in the data set
