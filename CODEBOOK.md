@@ -28,4 +28,4 @@ Activity column has 6 types as listed below and Subject is numbered from 1 to 30
 6. LAYING
 
 
-### All variables are of numeric type except subjectId and activityId. activityId is a categorical data type.
+### All variables are of numeric type except subjec and activity which are factor type  variables.
