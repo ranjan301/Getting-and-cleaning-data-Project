@@ -10,12 +10,12 @@
 ### 2. a. Extracted the columns from complete dataset the columns that contain either mean or std.
 ### b. Activity column in extracted data to be changed to factor type . activity names are taken from activitylabels metadata
 ### 3. Tagging appropriate labels of descriptive variables by replacing some of the acronyms.
-### 4. Finally create a independent tidy dataset with averaging of each variable for each activity and each subject.
+### 4. Finally create a independent tidySet dataset with averaging of each variable for each activity and each subject.
 
-# Tidy data Set Description
+# TidySet data Set Description
 
-### The variables in the tidy data
-Tidy data contains 180 rows and 88 columns. Each row has averaged variables for each subject and each activity.
+### The variables in the tidySet data
+TidySet data contains 180 rows and 88 columns. Each row has averaged variables for each subject and each activity.
 
 ### The data were averaged based on subject and activity group.
 Subject variable is numbered sequentially from 1 to 30 .Activity column has 6 types as listed below.
