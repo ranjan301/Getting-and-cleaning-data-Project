@@ -1,4 +1,4 @@
-## Steps were used to reproduce tidy Data Set
+## Steps used to reproduce tidy Data Set:
 
 ### 1. a. Download the file
 1. First a directory where the downloaded data to be stored
