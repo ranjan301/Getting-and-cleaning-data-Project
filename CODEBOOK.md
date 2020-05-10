@@ -1,3 +1,17 @@
+## Steps were used to reproduce tidy Data Set
+
+### 1. a. Download the file
+1. First a directory where the downloaded data to be stored
+2. Download zip file using download.file function and store into created directory
+3. Unzip the file and explore all the extracted files(datadet).
+### b. Read traing dataset, test dataset usind read.table function  and then merge both dataset into one using merge function.
+### c. Columns in feature data set be renamed from given metadata featureNames.
+### d. Merge all three datasets (features, activity and subject) using cbind function into a complete dataset.
+### 2. a. Extracted the columns from complete dataset the columns that contain either mean or std.
+### b. Activity column in extracted data to be changed to factor type . activity names are taken from activitylabels metadata
+### 3.a. Tagging appropriate labels of descriptive variables by replacing some of the acronyms.
+### 4. Finally create a independent tidy dataset with averaging of each variable for each activity and each subject.
+
 # Tidy data Set Description
 
 ### The variables in the tidy data
@@ -13,78 +27,5 @@ Activity column has 6 types as listed below and Subject is numbered from 1 to 30
 5. STANDING
 6. LAYING
 
-All the Columns are as follow:
-1.	subjectID
-2.	activityID
-3. 	tBodyAcc-mean()-X
-4.	tBodyAcc-mean()-Y
-5.	tBodyAcc-mean()-Z
-6.	tBodyAcc-std()-X
-7.	tBodyAcc-std()-Y
-8.	tBodyAcc-std()-Z
-9.	tGravityAcc-mean()-X
-10.	tGravityAcc-mean()-Y
-11.	tGravityAcc-mean()-Z
-12.	tGravityAcc-std()-X
-13.	tGravityAcc-std()-Y
-14.	tGravityAcc-std()-Z
-15.	tBodyAccJerk-mean()-X
-16.	tBodyAccJerk-mean()-Y
-17.	tBodyAccJerk-mean()-Z
-18.	tBodyAccJerk-std()-X
-19.	tBodyAccJerk-std()-Y
-20.	tBodyAccJerk-std()-Z
-21.	tBodyGyro-mean()-X
-22.	tBodyGyro-mean()-Y
-23.	tBodyGyro-mean()-Z
-24.	tBodyGyro-std()-X
-25.	tBodyGyro-std()-Y
-26.	tBodyGyro-std()-Z
-27.	tBodyGyroJerk-mean()-X
-28.	tBodyGyroJerk-mean()-Y
-29.	tBodyGyroJerk-mean()-Z
-30.	tBodyGyroJerk-std()-X
-31.	tBodyGyroJerk-std()-Y
-32.	tBodyGyroJerk-std()-Z
-33.	tBodyAccMag-mean()
-34.	tGravityAccMag-mean()
-35.	tBodyAccJerkMag-mean()
-36.	tBodyGyroMag-mean()
-37.	tBodyGyroJerkMag-mean()
-38.	fBodyAcc-mean()-X
-39.	fBodyAcc-mean()-Y
-40.	fBodyAcc-mean()-Z
-41.	fBodyAcc-std()-X
-42.	fBodyAcc-std()-Y
-43.	fBodyAcc-std()-Z
-44.	fBodyAcc-meanFreq()-X
-45.	fBodyAcc-meanFreq()-Y
-46.	fBodyAcc-meanFreq()-Z
-47.	fBodyAccJerk-mean()-X
-48.	fBodyAccJerk-mean()-Y
-49.	fBodyAccJerk-mean()-Z
-50.	fBodyAccJerk-std()-X
-51.	fBodyAccJerk-std()-Y
-52.	fBodyAccJerk-std()-Z
-53.	fBodyAccJerk-meanFreq()-X
-54.	fBodyAccJerk-meanFreq()-Y
-55.	fBodyAccJerk-meanFreq()-Z
-56.	fBodyGyro-mean()-X
-57.	fBodyGyro-mean()-Y
-58.	fBodyGyro-mean()-Z
-59.	fBodyGyro-std()-X
-60.	fBodyGyro-std()-Y
-61.	fBodyGyro-std()-Z
-62.	fBodyGyro-meanFreq()-X
-63.	fBodyGyro-meanFreq()-Y
-64.	fBodyGyro-meanFreq()-Z
-65.	fBodyAccMag-mean()
-66.	fBodyAccMag-meanFreq()
-67.	fBodyBodyAccJerkMag-mean()
-68.	fBodyBodyAccJerkMag-meanFreq()
-69.	fBodyBodyGyroMag-mean()
-70.	fBodyBodyGyroMag-meanFreq()
-71.	fBodyBodyGyroJerkMag-mean()
-72.	fBodyBodyGyroJerkMag-meanFreq()
 
 ### All variables are of numeric type except subjectId and activityId. activityId is a categorical data type.
